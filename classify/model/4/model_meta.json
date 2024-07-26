@@ -1,0 +1,26 @@
+{
+  "inputUnits": [64, 64, 4],
+  "outputUnits": 10,
+  "inputs": { "image": { "dtype": "array", "min": 0, "max": 255 } },
+  "outputs": {
+    "label": {
+      "dtype": "string",
+      "min": 0,
+      "max": 1,
+      "uniqueValues": ["Tomato_Bacterial_spot", "Tomato_Early_blight", "Tomato_healthy", "Tomato_Late_blight", "Tomato_yellow lwaf curl virus", "Tomato_mosoic virus", "Tomato_septoria leaf spot", "Tomato_spider mites", "Tomato_target spot", "Tomato_yellow lwaf curl virus"],
+      "legend": {
+        "Tomato_Bacterial_spot": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "Tomato_Early_blight": [0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+        "Tomato_healthy": [0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+        "Tomato_Late_blight": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+        "Tomato_Leaf_Mold": [0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+        "Tomato_mosoic virus": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+        "Tomato_septoria leaf spot": [0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+        "Tomato_spider mites": [0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
+        "Tomato_target spot": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+        "Tomato_yellow lwaf curl virus": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+      }
+    }
+  },
+  "isNormalized": true
+}

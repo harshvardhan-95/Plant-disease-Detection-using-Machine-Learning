@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+  background-image: linear-gradient(to bottom right,#55D284
+  ,#F2CF07);
+  /* background-image: url(./Images/background.jpg); */
+ 
+}
+button{
+  background-image: linear-gradient(to right, #603813 0%, #b29f94  51%, #603813  100%);
+  color: #fff;
+  padding: 10px;
+  border-radius:4;
+  font-size: large;
+  
+}
+image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
