@@ -1,1 +1,1 @@
-# Plant-disease-Detection-using-Machine-Learning
+# Automated Plant Disease Detection Using CNN 
